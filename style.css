@@ -1,103 +1,103 @@
-            * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            height: 100vh;
-            width: 100%;
-        }
-        
-        .container {
-            height: 100vh;
-            width: 80%;
-            background-color: #d6d6d6;
-            margin: 0 auto;
-        }
-        
-        header {
-            display: flex;
-            justify-content: space-between;
-            height: 20vh;
-            background-color: black;
-            color: white;
-            border-bottom: 8px solid greenyellow;
-            position: sticky;
-        }
-        
-        header h1 {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-            font-weight: 900;
-            font-size: 40px;
-            flex-grow: 1;
-            padding-top: 30px;
-            padding-left: 20px;
-        }
-        
-        header span {
-            color: greenyellow;
-        }
-        
-        nav {
-            flex-grow: 3;
-            display: flex;
-            justify-content: flex-end;
-        }
-        
-        nav ul {
-            display: flex;
-            justify-content: flex-end;
-            color: white;
-        }
-        
-        nav ul:first-child {
-            color: white;
-        }
-        
-        nav ul li {
-            margin: 40px 19px 100px 0px;
-            list-style-type: none;
-        }
-        
-        nav ul li a:hover {
-            transition: all 0.2s linear;
-            color: white;
-        }
-        
-        nav ul li a {
-            text-decoration: none;
-            color: greenyellow;
-            font-size: 1.3em;
-            font-weight: lighter;
-            font-family: monospace;
-        }
-        
-        h2 {
-            text-align: center;
-            margin: 20px 0px;
-            font-size: 30px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        
-        .box {
-            /* height: 60vh; */
-            background-color: rgb(255, 255, 255);
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: center;
-        }
-        
-        .mainboxes {
-            height: 300px;
-            width: 250px;
-            background-color: brown;
-            margin: 20px;
-            justify-self: center;
-            box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
-        }
-        /* @keyframes zoom {
+                                    * {
+                                    padding: 0;
+                                    margin: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    height: 100vh;
+                                    width: 100%;
+                                }
+                                
+                                .container {
+                                    height: 100vh;
+                                    width: 80%;
+                                    background-color: #d6d6d6;
+                                    margin: 0 auto;
+                                }
+                                
+                                header {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    height: 20vh;
+                                    background-color: black;
+                                    color: white;
+                                    border-bottom: 8px solid greenyellow;
+                                    position: sticky;
+                                }
+                                
+                                header h1 {
+                                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                                    font-weight: 900;
+                                    font-size: 40px;
+                                    flex-grow: 1;
+                                    padding-top: 30px;
+                                    padding-left: 20px;
+                                }
+                                
+                                header span {
+                                    color: greenyellow;
+                                }
+                                
+                                nav {
+                                    flex-grow: 3;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                }
+                                
+                                nav ul {
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    color: white;
+                                }
+                                
+                                nav ul:first-child {
+                                    color: white;
+                                }
+                                
+                                nav ul li {
+                                    margin: 40px 19px 100px 0px;
+                                    list-style-type: none;
+                                }
+                                
+                                nav ul li a:hover {
+                                    transition: all 0.2s linear;
+                                    color: white;
+                                }
+                                
+                                nav ul li a {
+                                    text-decoration: none;
+                                    color: greenyellow;
+                                    font-size: 1.3em;
+                                    font-weight: lighter;
+                                    font-family: monospace;
+                                }
+                                
+                                h2 {
+                                    text-align: center;
+                                    margin: 20px 0px;
+                                    font-size: 30px;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                }
+                                
+                                .box {
+                                    /* height: 60vh; */
+                                    background-color: rgb(255, 255, 255);
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    width: 100%;
+                                    justify-content: center;
+                                }
+                                
+                                .mainboxes {
+                                    height: 300px;
+                                    width: 250px;
+                                    background-color: brown;
+                                    margin: 20px;
+                                    justify-self: center;
+                                    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+                                }
+                                /* @keyframes zoom {
     from {
         transform: scale(1, 1);
     }
@@ -105,131 +105,147 @@
         transform: scale(.9, .9);
     }
 } */
-        
-        .one {
-            background-image: url(ape.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .two {
-            background-image: url(dog.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .three {
-            background-image: url(cat.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .mainboxes:hover {
-            transform: scale(0.9, 0.9);
-            transition: all 1s;
-        }
-        
-        .four {
-            background-image: url(dragon.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .five {
-            background-image: url(giraffe.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .six {
-            background-image: url(lion.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .seven {
-            background-image: url(snake.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .eight {
-            background-image: url(zebra.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .nine {
-            background-image: url(monkey.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .ten {
-            background-image: url(bison.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .eleven {
-            background-image: url(bear.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .twelve {
-            background-image: url(bird.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        footer {
-            height: 20vh;
-            background-color: black;
-            color: white;
-            border-top: 8px solid greenyellow;
-            margin-top: 50px;
-        }
-        
-        h5 {
-            color: greenyellow;
-            text-align: center;
-            padding-top: 40px;
-            font-weight: lighter;
-            font-size: 18px;
-        }
-        
-        .love {
-            color: red;
-        }
-        
-        @media screen;
-        @media screen and (max-width: 480px) {
-            body {
-                background-color: greenyellow;
-            }
-            .mainboxes {
-                height: 400px;
-                width: 100%;
-                background-color: brown;
-                margin: 20px;
-                justify-self: center;
-                box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
-                animation: zoom 5000ms ease-in-out infinite;
-            }
-            header {
-                display: flex;
-                justify-content: space-between;
-                height: 20vh;
-                background-color: black;
-                color: white;
-                border-bottom: 8px solid greenyellow;
-                flex-wrap: wrap;
-            }
-            header h1 {
-                text-align: center;
-            }
-            ul li {
-                display: none;
-            }
-            1
+                                
+                                .one {
+                                    background-image: url(img/ape.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .two {
+                                    background-image: url(img/dog.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .three {
+                                    background-image: url(img/cat.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .mainboxes:hover {
+                                    transform: scale(0.9, 0.9);
+                                    transition: all 1s;
+                                }
+                                
+                                .four {
+                                    background-image: url(img/dragon.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .five {
+                                    background-image: url(img/giraffe.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .six {
+                                    background-image: url(img/lion.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .seven {
+                                    background-image: url(img/snake.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .eight {
+                                    background-image: url(img/zebra.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .nine {
+                                    background-image: url(img/monkey.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .ten {
+                                    background-image: url(img/bison.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .eleven {
+                                    background-image: url(img/bear.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .twelve {
+                                    background-image: url(img/bird.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .thirteen {
+                                    background-image: url(img/horse.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .fourteen {
+                                    background-image: url(img/goat.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                .fifteen {
+                                    background-image: url(img/bee.jpeg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                
+                                footer {
+                                    height: 20vh;
+                                    background-color: black;
+                                    color: white;
+                                    border-top: 8px solid greenyellow;
+                                    margin-top: 50px;
+                                }
+                                
+                                h5 {
+                                    color: greenyellow;
+                                    text-align: center;
+                                    padding-top: 40px;
+                                    font-weight: lighter;
+                                    font-size: 18px;
+                                }
+                                
+                                .love {
+                                    color: red;
+                                }
+                                
+                                @media screen and (max-width: 480px) {
+                                    body {
+                                        background-color: greenyellow;
+                                    }
+                                    .mainboxes {
+                                        height: 400px;
+                                        width: 100%;
+                                        background-color: brown;
+                                        margin: 20px;
+                                        justify-self: center;
+                                        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+                                        animation: zoom 5000ms ease-in-out infinite;
+                                    }
+                                    header {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        height: 20vh;
+                                        background-color: black;
+                                        color: white;
+                                        border-bottom: 8px solid greenyellow;
+                                        flex-wrap: wrap;
+                                    }
+                                    header h1 {
+                                        text-align: center;
+                                    }
+                                    ul li {
+                                        display: none;
+                                    }
